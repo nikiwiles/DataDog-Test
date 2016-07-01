@@ -12,7 +12,7 @@ namespace DataDogIntegration
         static void Main(string[] args)
         {
             
-            // Configire on localhost
+            // Configure on localhost
             var DogStatsdConfig = new StatsdConfig
             {
                 StatsdServerName = "127.0.0.1",
